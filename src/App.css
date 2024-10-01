@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e6aba;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.blank{
+  color: red;
+}
+.container{
+  color:blue;
+  padding: 10px; ;
+  font-size: larger;
+   
+}
+.body{
+  color:red;
+  font-size: 10px;
+}
+
+.app-header {
+  background-color: #282c34;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.nav-text{
+  font-size: 20px;
+  display: inline;
+  padding: 20px;             /* Padding for items */
+  margin: 10px;              /* Space between items */
+  flex: 1;                   /* Grow to fill available space */
+  text-align: center;        
 }
